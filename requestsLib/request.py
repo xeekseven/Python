@@ -4,6 +4,7 @@ import sys
 from lxml import etree
 import time,threading
 
+
 def getBitCoinInfo():
     url = 'https://bitcoinwisdom.com/'
     html = requests.get(url)
